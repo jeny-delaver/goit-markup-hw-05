@@ -231,16 +231,11 @@ img {
 
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-container > .margin-container:not(:last-child) {
     margin-right: 70px;
-}
-
-.link-container{
-    margin-left: 75px;
-    margin-top: 12px;
-
 }
 
 .join {
