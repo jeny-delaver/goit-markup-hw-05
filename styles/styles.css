@@ -760,6 +760,8 @@ img {
 
 .example-link{
     display: inline-block;
+
+    transition: box-shadow var(--animation-time) var(--cubic-time-function);
 }
 
 .example-content-thumb{
@@ -817,9 +819,8 @@ img {
 .example-content-thumb:hover .description-project-container{
     transform: translateY(0%);
 }                   
-
-.list-project-examples .example-link:hover,
-.list-project-examples .example-link:focus{
+.example-link:hover,
+.example-link:focus{
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
