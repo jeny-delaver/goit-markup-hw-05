@@ -723,6 +723,9 @@ img {
     border-radius: 4px;
 
     padding: 6px 22px;
+     
+    transition: background-color var(--animation-time) var(--cubic-time-function), color var(--animation-time) var(--cubic-time-function), 
+    box-shadow var(--animation-time) var(--cubic-time-function);
 }
 
 .list-projects button:hover,
@@ -820,6 +823,3 @@ img {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
-
-
-
